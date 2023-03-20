@@ -1,7 +1,50 @@
-h4 {
+.f1 {
 
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3%;
+}
 
-     
+.f2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 75px;
+
+}
+
+.f2 em {
+    font-style: normal;
+    color: #ed563b;
+}
+
+.f1 em {
+    font-style: normal;
+    color: #ed563b;
+}
+
+.f3 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ed563b;
+    padding: 10px;
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+
+}
+
+.f4 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10%;
+    background-image: url("imgs/image2.jpg");
+    height: 400px;
+    width: 100%;
+
 }

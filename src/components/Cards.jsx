@@ -15,7 +15,7 @@ export default function Cards() {
     </Card>
   </div>
   <div className="max-w-sm   ml-16" >
-  <Card imgSrc="imgs/gym equipment.jpg">
+  <Card imgSrc="imgs/gym wear.jpg">
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       GYM EQUIPMENTS
     </h5>
