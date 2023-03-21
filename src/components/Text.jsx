@@ -14,9 +14,11 @@ export default function Text() {
         
         </div>
         <div class="f4">
-        DON'T THINK,BEGIN TODAY
+        DON'T THINK,BEGIN TODAY ON FITNESS JOURNEY WITH OUR BEST COACHES
 
         </div>
+       
+    
     </div>
   )
 }

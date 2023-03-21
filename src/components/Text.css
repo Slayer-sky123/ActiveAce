@@ -2,7 +2,7 @@
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 3%;
 }
 
@@ -10,7 +10,7 @@
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    font-size: 75px;
+    font-size: 85px;
 
 }
 
@@ -43,8 +43,11 @@
     text-align: center;
     font-size: 35px;
     margin-top: 10%;
-    background-image: url("imgs/image2.jpg");
     height: 400px;
     width: 100%;
-
+    
+}
+.f4 em {
+    font-style: normal;
+    color: #ed563b;
 }
