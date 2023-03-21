@@ -5,7 +5,7 @@ export default function Myfooter() {
     <Footer container={true}>
   <Footer.Copyright
     href="#"
-    by="Flowbite™"
+    by="ActiveAce"
     year={2022}
   />
   <Footer.LinkGroup>
