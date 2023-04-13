@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Plans() {
   return (
-  <h1>Plans</h1>
+    <div class="f6"><u>OUR PLANS</u></div>
   )
 }

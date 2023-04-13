@@ -16,7 +16,7 @@ export default function Text() {
         <div class="f4">
         DON'T THINK,BEGIN TODAY ON FITNESS JOURNEY
         <div class="f5">
-        "FITNESS IS NOT ABOUT BEING BETTER THAN SOMEONE ELSE.IT'S ABOUT BEING BETTER THAN YOU USED TO BE"
+        "FITNESS IS NOT ABOUT BEING BETTER THAN SOMEONE ELSE,IT'S ABOUT BEING BETTER THAN YOU USED TO BE"
       </div>
       <div class="f6"><u>OUR PLANS</u></div>
     </div>
