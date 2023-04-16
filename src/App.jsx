@@ -9,12 +9,6 @@ import Home from './pages/Home';
 import Myfooter from './components/Footer';
 
 
-
-
-
-
-
-
 export default function App() {
   return (
     <BrowserRouter>
