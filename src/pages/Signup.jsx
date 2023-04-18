@@ -1,9 +1,7 @@
 import React from 'react'
 export default function Signup() {
   return (
-
-
-  <div class="container h-full p-10">
+ <div class="container h-full p-10">
     <div
       class="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
       <div class="w-full">
@@ -17,10 +15,10 @@ export default function Signup() {
                 <div class="text-center">
                   <img
                     class="mx-auto w-48"
-                    src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                    src="imgs/logo.jpeg"
                     alt="logo" />
                   <h4 class="mb-12 mt-1 pb-1 text-xl font-semibold">
-                    We are The Lotus Team
+                    ACTIVE ACE
                   </h4>
                 </div>
 

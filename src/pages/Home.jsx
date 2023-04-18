@@ -1,5 +1,4 @@
 import React from 'react'
-import Cards from '../components/Cards'
 import MyCarousel from '../components/Carousel'
 
 import Text from '../components/Text'
@@ -10,7 +9,7 @@ export default function
   <>
 <MyCarousel></MyCarousel>
   <Text></Text>
-<Cards></Cards>
+
 
   </>
   )

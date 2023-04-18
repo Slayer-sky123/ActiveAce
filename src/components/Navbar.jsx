@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Navbar() {
+  const { loginWithRedirect } = useAuth0();
+  const { logout } = useAuth0();
+  const { user, isAuthenticated, isLoading } = useAuth0();
+  
   return (
 <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
-    <a href="https://flowbite.com/" class="flex items-center">
+    <a class="flex items-center">
         <img src="imgs/logo.jpeg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
 
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">ACTIVE ACE</span>
@@ -20,9 +24,25 @@ export default function Navbar() {
         <li>
           <Link to="/" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</Link>
         </li>
-        <li>
-          <Link to="/signup" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Sign up</Link>
-        </li>
+        {
+           isAuthenticated ? (
+            <li>
+              <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+      Logout
+    </button>
+            </li>
+           ): (
+<li>
+
+<button onClick={() => loginWithRedirect()}>Login</button>
+
+</li>
+
+           )
+
+        }
+      
+        
         <li>
           <Link to="/plans" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Plans</Link>
         </li>
@@ -30,6 +50,7 @@ export default function Navbar() {
         <li>
           <Link to="/contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Us</Link>
         </li>
+       
       </ul>
     </div>
   </div>

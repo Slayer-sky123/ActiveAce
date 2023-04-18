@@ -1,7 +1,14 @@
 import React from 'react'
+import Cards from '../components/Cards'
+import Planstext from '../components/Planstext'
+
 
 export default function Plans() {
   return (
-    <div class="f6"><u>OUR PLANS</u></div>
+
+   <>
+  <Planstext></Planstext>
+  <Cards></Cards>
+  </>
   )
 }

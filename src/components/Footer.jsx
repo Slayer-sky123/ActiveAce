@@ -22,6 +22,9 @@ export default function Myfooter() {
       Contact
     </Footer.Link>
   </Footer.LinkGroup>
+  
+
+
 </Footer>
   )
 }
